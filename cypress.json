@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://automation-wappi.vercel.app/login",
+    "ignoreTestFiles": "**/examples/*",
+    "testFiles": "**/*.feature",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
+}
