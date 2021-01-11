@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.9470" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-01-11T22:21:04" tests="0" file="cypress\integration\PedirOrdenSinCupon.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Pedir una orden sin el cupon de bienvenida" timestamp="2021-01-11T22:21:04" tests="1" time="9.9470" failures="0">
+    <testcase name="Pedir una orden sin el cupon de bienvenida login into at Wappi platfom with credential and get an order without cuopon" time="9.9470" classname="login into at Wappi platfom with credential and get an order without cuopon">
+    </testcase>
+  </testsuite>
+</testsuites>

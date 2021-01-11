@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.8630" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-01-11T22:20:19" tests="0" file="cypress\integration\ActualizacionPerfil.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Actualizacion de informacion dentro del perfil" timestamp="2021-01-11T22:20:19" tests="2" time="9.8630" failures="0">
+    <testcase name="Actualizacion de informacion dentro del perfil login into platfom with credential and updated  personal information (example #1)" time="6.7390" classname="login into platfom with credential and updated  personal information (example #1)">
+    </testcase>
+    <testcase name="Actualizacion de informacion dentro del perfil login into platfom with credential and updated  personal information (example #2)" time="3.1240" classname="login into platfom with credential and updated  personal information (example #2)">
+    </testcase>
+  </testsuite>
+</testsuites>

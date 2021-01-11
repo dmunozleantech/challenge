@@ -1,0 +1,241 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-11T22:20:19.575Z",
+    "end": "2021-01-11T22:21:14.356Z",
+    "duration": 29201,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "49ed20d1-71b7-4108-8749-07345d29bc07",
+      "title": "",
+      "fullFile": "cypress\\integration\\PedirOrdenConCupon.feature",
+      "file": "cypress\\integration\\PedirOrdenConCupon.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e634c012-1588-43ac-bf0f-46deb632f2d8",
+          "title": "Pedir una orden con el cupon de bienvenida",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login into at Wappi platfom with credential and get an order",
+              "fullTitle": "Pedir una orden con el cupon de bienvenida login into at Wappi platfom with credential and get an order",
+              "timedOut": null,
+              "duration": 9391,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "29047626-5583-41fe-bee3-339876576ed5",
+              "parentUUID": "e634c012-1588-43ac-bf0f-46deb632f2d8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "29047626-5583-41fe-bee3-339876576ed5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9391,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a84ded8e-4b5e-49fd-8ece-746acdfb1224",
+      "title": "",
+      "fullFile": "cypress\\integration\\PedirOrdenSinCupon.feature",
+      "file": "cypress\\integration\\PedirOrdenSinCupon.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7a121676-94f8-4453-9310-acd799ab6229",
+          "title": "Pedir una orden sin el cupon de bienvenida",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login into at Wappi platfom with credential and get an order without cuopon",
+              "fullTitle": "Pedir una orden sin el cupon de bienvenida login into at Wappi platfom with credential and get an order without cuopon",
+              "timedOut": null,
+              "duration": 9947,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "32dc99b1-33aa-488d-8c52-96188034cd51",
+              "parentUUID": "7a121676-94f8-4453-9310-acd799ab6229",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "32dc99b1-33aa-488d-8c52-96188034cd51"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9947,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "6b81a40b-d7a0-4aa4-9782-a7a157cb80c5",
+      "title": "",
+      "fullFile": "cypress\\integration\\ActualizacionPerfil.feature",
+      "file": "cypress\\integration\\ActualizacionPerfil.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "abff80fa-c08b-4404-89e8-a431ce03a4db",
+          "title": "Actualizacion de informacion dentro del perfil",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login into platfom with credential and updated  personal information (example #1)",
+              "fullTitle": "Actualizacion de informacion dentro del perfil login into platfom with credential and updated  personal information (example #1)",
+              "timedOut": null,
+              "duration": 6739,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "5a822649-5492-4797-a316-3e46e67e4898",
+              "parentUUID": "abff80fa-c08b-4404-89e8-a431ce03a4db",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "login into platfom with credential and updated  personal information (example #2)",
+              "fullTitle": "Actualizacion de informacion dentro del perfil login into platfom with credential and updated  personal information (example #2)",
+              "timedOut": null,
+              "duration": 3124,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "47341320-6892-488e-af53-7e32e59bca5f",
+              "parentUUID": "abff80fa-c08b-4404-89e8-a431ce03a4db",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5a822649-5492-4797-a316-3e46e67e4898",
+            "47341320-6892-488e-af53-7e32e59bca5f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9863,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

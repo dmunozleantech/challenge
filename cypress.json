@@ -3,5 +3,9 @@
     "ignoreTestFiles": "**/examples/*",
     "testFiles": "**/*.feature",
     "viewportWidth": 1920,
-    "viewportHeight": 1080
-}
+    "viewportHeight": 1080,
+    "reporter": "cypress-multi-reporters",
+        "reporterOptions": {
+          "configFile": "reporter-config.json"
+        }
+    }

@@ -1,5 +1,6 @@
 import { inicioPage } from '../pageObjects/InicioPage';
 import { loginPage } from '../pageObjects/LoginPage';
+import { misPedidosPage } from '../pageObjects/MisPedidosPage';
 
 let valueArticle1 = "";
 let valueArticle2 = "";
@@ -48,7 +49,7 @@ Given('I open to page with user and password', () => {
   });
   Then('Validate information in the view my orders', () => {
     inicioPage.btnMisPedidos().click();
-    inicioPage.listTable().contains('tr', nameArticle1).then(tableRow => {
+    misPedidosPage.listTable().contains('tr', nameArticle1).then(tableRow => {
     cy.wrap(tableRow).find('td').eq(6).invoke('text').then(text => {
     expect(text.trim()).to.equal('No')
       })
@@ -56,7 +57,7 @@ Given('I open to page with user and password', () => {
     expect(text.trim()).to.equal(valueArticle1)
       })
     })
-    inicioPage.listTable().contains('tr', nameArticle2).then(tableRow => {
+    misPedidosPage.listTable().contains('tr', nameArticle2).then(tableRow => {
     cy.wrap(tableRow).find('td').eq(6).invoke('text').then(text => {
     expect(text.trim()).to.equal('No')
       })

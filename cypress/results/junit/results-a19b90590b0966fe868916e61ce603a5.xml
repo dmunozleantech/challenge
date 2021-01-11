@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.3910" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-01-11T22:20:43" tests="0" file="cypress\integration\PedirOrdenConCupon.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Pedir una orden con el cupon de bienvenida" timestamp="2021-01-11T22:20:43" tests="1" time="9.3910" failures="0">
+    <testcase name="Pedir una orden con el cupon de bienvenida login into at Wappi platfom with credential and get an order" time="9.3910" classname="login into at Wappi platfom with credential and get an order">
+    </testcase>
+  </testsuite>
+</testsuites>

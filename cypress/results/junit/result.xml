@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2021-01-11T22:20:43" tests="0" file="cypress\integration\PedirOrdenConCupon.feature" time="0.0000" failures="0"></testsuite>
+<testsuite name="Pedir una orden con el cupon de bienvenida" timestamp="2021-01-11T22:20:43" tests="1" time="9.3910" failures="0">
+  
+  <testcase name="Pedir una orden con el cupon de bienvenida login into at Wappi platfom with credential and get an order" time="9.3910" classname="login into at Wappi platfom with credential and get an order"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-01-11T22:20:19" tests="0" file="cypress\integration\ActualizacionPerfil.feature" time="0.0000" failures="0"></testsuite>
+<testsuite name="Actualizacion de informacion dentro del perfil" timestamp="2021-01-11T22:20:19" tests="2" time="9.8630" failures="0">
+  
+  <testcase name="Actualizacion de informacion dentro del perfil login into platfom with credential and updated  personal information (example #1)" time="6.7390" classname="login into platfom with credential and updated  personal information (example #1)"></testcase>
+  
+  <testcase name="Actualizacion de informacion dentro del perfil login into platfom with credential and updated  personal information (example #2)" time="3.1240" classname="login into platfom with credential and updated  personal information (example #2)"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-01-11T22:21:04" tests="0" file="cypress\integration\PedirOrdenSinCupon.feature" time="0.0000" failures="0"></testsuite>
+<testsuite name="Pedir una orden sin el cupon de bienvenida" timestamp="2021-01-11T22:21:04" tests="1" time="9.9470" failures="0">
+  
+  <testcase name="Pedir una orden sin el cupon de bienvenida login into at Wappi platfom with credential and get an order without cuopon" time="9.9470" classname="login into at Wappi platfom with credential and get an order without cuopon"></testcase>
+  
+</testsuite>
+
+</testsuites>

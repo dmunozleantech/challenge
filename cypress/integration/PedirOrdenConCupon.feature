@@ -1,4 +1,4 @@
-Feature: Pedir una orden con y sin el cupon de bienvenida
+Feature: Pedir una orden con el cupon de bienvenida
 As
 User Wappi
 I want 
