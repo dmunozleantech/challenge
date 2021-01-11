@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "delete:reports": "rmdir -r cypress/results/* || true",
+    "delete:reports": "(if exist cypress\\reports (rmdir /Q /S cypress\\reports)) && mkdir cypress\\reports && mkdir cypress\\reports\\mocha  &&  mkdir cypress\\reports\\mochareports"
+    ,
     "prereport": "npm run delete:reports",
     "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.json",
     "junit:merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/result.xml",
-    "cypress:run": "npx cypress run"
+    "cypress:run": "npx prereport && npx cypress run; npm run mochawesome:merge; npm run junit:merge"
   },
   "keywords": [],
   "author": "",

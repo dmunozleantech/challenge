@@ -1,7 +1,8 @@
 import { loginPage }  from '../pageObjects/LoginPage';
 import {inicioPage } from '../pageObjects/InicioPage';
 import {personalInformationPage} from '../pageObjects/PersonalInformationPage';
-const yourFixturePath = 'IMAG0037.jpg'
+const path = require('path');
+const imgPath = path.join(__dirname,`../../fixtures/IMAG0037.jpg`);
 
 Given('I open to page with user and password {string} and {string}', (username, password) => {
     cy.visit('/')
@@ -39,7 +40,8 @@ Given('I open to page with user and password {string} and {string}', (username, 
   And('I put {string}', (image) => {
     var booValue = JSON.parse(image)
     if(booValue == true){
-      personalInformationPage.loadImage().attachFile(yourFixturePath);
+      personalInformationPage.loadImage().attachFile(path.basename(imgPath));
+
     }
     cy.get('#save-profile').click()
   });
