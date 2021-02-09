@@ -1,11 +1,11 @@
 {
     "baseUrl": "https://automation-wappi.vercel.app/login",
     "ignoreTestFiles": "**/examples/*",
-    "testFiles": "**/*.feature",
+    "testFiles": "**/*.{feature,features}",
     "viewportWidth": 1920,
     "viewportHeight": 1080,
     "reporter": "cypress-multi-reporters",
         "reporterOptions": {
-          "configFile": "reporter-config.json"
+        "configFile": "reporter-config.json"
         }
     }

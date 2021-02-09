@@ -1,4 +1,16 @@
 export class LoginPage {
+    
+
+    username     = "#username";
+    password     = "#password";
+
+
+diligenciarformulario(test){
+    let field = cy.get(this.username);
+    field.clear();
+    field.type("David31982")
+
+}
     txtUsername() {
         return cy.get('#username');
     }

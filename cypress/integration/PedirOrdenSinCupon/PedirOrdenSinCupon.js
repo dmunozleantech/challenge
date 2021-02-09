@@ -1,6 +1,7 @@
 import { inicioPage } from '../pageObjects/InicioPage';
 import { loginPage } from '../pageObjects/LoginPage';
 import { misPedidosPage } from '../pageObjects/MisPedidosPage';
+import { Given, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 let valueArticle1 = "";
 let valueArticle2 = "";

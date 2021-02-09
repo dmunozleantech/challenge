@@ -1,4 +1,6 @@
 export class InicioPage {
+
+    
     txtUsername() {
         return cy.get('#username');
     }
