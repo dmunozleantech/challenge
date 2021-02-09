@@ -1,6 +1,6 @@
 Overview of Cypress
 Page Object Model
-Cypress does not recommend using the Page Object Model pattern that most folk will be used to from the Selenium based frameworks (see the article by Martin Fowler Page Object ) the preferred option is to use the Cypress Custom Commands, this POM version has been added to provide a comparison.
+
 
 Installing Cypress from Scratch
 Create a project directory Open a Terminal in the project root directory
